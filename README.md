@@ -6,6 +6,12 @@ I kept most functions identical to Matlab's version for compatibility.
 The StandardFirmata.ino firmware needs to be loaded to your development board. 
 Serial communication is the only form possible right now.
 
+To install, download the latest release from the release page.
+Start Octave, and move to the folder it the file is saved in.
+Type `pkg install arduino.tar.gz`
+It requires instrument-control package to run from Forge. 
+To install that, type `pkg install -forge instrument-control`
+
 Additional features will be added later.
 version 1.0.0
 
