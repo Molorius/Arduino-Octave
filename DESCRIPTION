@@ -1,11 +1,11 @@
 Name: Arduino
 Title: Arduino
-Version: 1.0.0
-Date: 2017-08-25
+Version: 1.1.0
+Date: 2017-10-01
 Author: Blake Felt, blake.w.felt@gmail.com
 Maintainer: Blake Felt, blake.w.felt@gmail.com
 Description: A class that utilizes the Firmata 
  protocol to communicate with microcontrollers.
 Depends: instrument-control (>= 0.3.0)
-Categories: serial arduino control
-Autoload: yes
+Categories: arduino
+Autoload: true
